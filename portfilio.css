@@ -223,6 +223,11 @@ nav {
     transform: translateY(-3px);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @media(max-width: 900px) {
     .container {
         flex-direction: column;
@@ -257,5 +262,6 @@ nav {
         font-size: 16px;
     }
 }
+
 
 
